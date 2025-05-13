@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="93" viewBox="0 0 250 93">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4a1192"/>
+      <stop offset="1" stop-color="#2cd5c4"/>
+    </linearGradient>
+    <filter id="Rectangle_3" x="0" y="0" width="250" height="93" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_247" data-name="Group 247" transform="translate(15 15)">
+    <g transform="matrix(1, 0, 0, 1, -15, -15)" filter="url(#Rectangle_3)">
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" width="220" height="63" rx="15" transform="translate(15 15)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="Ordenar_ahora" data-name="Ordenar ahora" transform="translate(110 38)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-57.841" y="0">Ordenar ahora</tspan></text>
+  </g>
+</svg>
